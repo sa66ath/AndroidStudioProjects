@@ -1,0 +1,104 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+
+/*+++++++++++++++++++++++++++
+task hello {
+    doLast {
+        println 'Hello world!'
+    }
+}
+
+++++++++++++++++++
+
+task hello << {
+        println 'Hello world!'
+}
+
+++++++++++++++++++
+
+
+task hoge << {
+    String fuga = 'fuga'
+    int count = 9
+    println 'hoge' + fuga + 'piyo'
+    println count.toString()
+}
+
++++++++++++++++++
+
+task count << {
+    3.times {
+        println it
+   }
+}
+
+++++++++++++++++++++++
+
+task enterMyRoom(dependsOn: 'unlockDoor') << {
+    println "I'm home"
+}
+
+task unlockDoor << {
+    println "I unlock the door"
+}
+
+
+task relax(dependsOn: enterMyRoom) << {
+    println "Relax..."
+}
+
++++++++++++++++++++
+
+task unlockDoor << {
+    println "I unlock the door"
+}
+
+task enterMyRoom << {
+    println "I'm home"
+}
+
+task relax << {
+    println "Relax..."
+}
+
+enterMyRoom.dependsOn unlockDoor
+relax.dependsOn unlockDoor, enterMyRoom
+
+++++++++++++++++++++++*/
+
+task sample << {
+    println 'hoge'
+}
+sample.doFirst {
+    println 'hello!'
+}
+sample.doLast {
+    println 'fuga'
+}
+sample << {
+    println 'piyo'
+}
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ant">ant</string>
+    <string name="bear">bear</string>
+    <string name="cow">cow</string>
+    <string name="deer">deer</string>
+    <string name="elephant">elephant</string>
+</resources>

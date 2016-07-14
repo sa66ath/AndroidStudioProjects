@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Scroll</string>
+
+    <string name="hello_world">Hello world!インターフェイスを継承してクラスを定義することを「インターフェイスを実装する」と言います。実装には、クラスを定義する際にimplememntsキーワードを付けて実装元を指定します。
+たとえば以下はIAreableインターフェイスを実装して、Triangleクラスを定義する例です。実装では、インターフェイスで定義されたメソッドをすべて実装していないと、コンパイルエラーとなります。
+    interface,extend,implementのちがい - Java | 教えて！goo
+oshiete.goo.ne.jp › [技術者向] コンピューター › プログラミング › Java
+interface,extend,implementのちがい | お世話になります、Javaを勉強しているのですが、interface,extend,implementの使い分けがわかりません。私の解釈としては、(1)interfaceは、グローバル変数の定義、グ... - Java | 教えて！goo.
+Javaの道：インタフェース（3．インタフェースの実装(implements)）
+www.javaroad.jp › Java基本
+2005/07/30 - インタフェースの実装はimplementsを使用して行います。インタフェースは1つのクラスに対し、複数実装することもできます。また、クラスがextendsを使用する場合は、implementsはextendsの後に指定します。
+implementsキーワード | Javaコード入門
+java-code.jp/108
+implementsキーワード. インターフェイスを実装する – implementsキーワード. インターフェイスを継承してクラスを定義することを「インターフェイスを実装する」と言います。実装には、クラスを定義する際にimplememntsキーワードを付けて実装元を指定します。
+とほほのJava入門 - とほほのWWW入門
+www.tohoho-web.com/java/interface.htm
+2004/06/26 - インタフェース は、ある機能を実現するクラスが必ず実装するべきメソッドの名前や型といった作法のみを定義するものです。interface を用いて定義します。インタフェースで定義されるメソッド（抽象メソッド）の実体は implements を用いた側の  ...
+【Java】インターフェイスを制すものはオブジェクト指向を ... - Qiita
+qiita.com › 投稿 › Java
+2015/03/12 - 以下続くの具体例を見てください。 2. 複数のインターフェイスから引き継げるJavaには、親クラスからの継承機能はあるが、複数の親から引き継ぐことができない、また、親と子というにふさわしい関係性がない場合の引き継ぎは不適切とされる...
+Java 入門 | インタフェース
+msugai.fc2web.com/java/interface.html
+2003/02/09 - Java インタフェースとは何か. 内容に抽象メソッドしか持たないクラスのようなものをインタフェースと呼びます。クラスと並んで、パッケージのメンバーとして存在します。インタフェースはクラスによって実装 (implements) され、実装クラスは  ...</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>

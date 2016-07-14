@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string name="action_settings">Settings</string>
+    <string name="spinnerSample">くだもの選択</string>
+    <string-array name="fruits">fruits
+    <item>りんご</item>
+    <item>みかん</item>
+    <item>梨</item>
+    <item>ドリアン</item>
+    </string-array>
+</resources>
